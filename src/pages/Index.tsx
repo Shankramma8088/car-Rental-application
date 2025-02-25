@@ -27,6 +27,15 @@ const Index = () => {
       price: 45,
       available: true,
       imageUrl: "/lovable-uploads/242f0fea-e9b7-4ab1-a93b-58b7db4a21bf.png"
+    },
+    {
+      id: "2",
+      make: "BMW",
+      model: "Vision M NEXT",
+      year: 2024,
+      price: 150,
+      available: true,
+      imageUrl: "/lovable-uploads/986a441c-0f75-46f5-869f-bdbb7467bced.png"
     }
   ]);
   const [isAddingCar, setIsAddingCar] = useState(false);
