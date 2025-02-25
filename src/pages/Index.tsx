@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Car } from "@/types/car";
 import { CarCard } from "@/components/CarCard";
@@ -36,6 +35,15 @@ const Index = () => {
       price: 150,
       available: true,
       imageUrl: "/lovable-uploads/986a441c-0f75-46f5-869f-bdbb7467bced.png"
+    },
+    {
+      id: "3",
+      make: "Suzuki",
+      model: "Swift",
+      year: 2024,
+      price: 35,
+      available: true,
+      imageUrl: "/lovable-uploads/88b07cf2-c867-461e-993a-b9217260e4ef.png"
     }
   ]);
   const [isAddingCar, setIsAddingCar] = useState(false);
