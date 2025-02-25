@@ -18,7 +18,17 @@ import {
 import { useToast } from "@/components/ui/use-toast";
 
 const Index = () => {
-  const [cars, setCars] = useState<Car[]>([]);
+  const [cars, setCars] = useState<Car[]>([
+    {
+      id: "1",
+      make: "Toyota",
+      model: "Corolla",
+      year: 2023,
+      price: 45,
+      available: true,
+      imageUrl: "/lovable-uploads/242f0fea-e9b7-4ab1-a93b-58b7db4a21bf.png"
+    }
+  ]);
   const [isAddingCar, setIsAddingCar] = useState(false);
   const [editingCar, setEditingCar] = useState<Car | null>(null);
   const [deletingCar, setDeletingCar] = useState<Car | null>(null);
